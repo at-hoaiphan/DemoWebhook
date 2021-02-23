@@ -4,7 +4,7 @@ jobs :
   backlog :
     runs-on : ubuntu-latest
     steps :
-      - Name : Backlog Notify
+        Name : Backlog Notify
         uses : Bicstone / Backlog-Notify Atto Master
         Env :
           PROJECT_KEY : NOTIFY_GITHUB
