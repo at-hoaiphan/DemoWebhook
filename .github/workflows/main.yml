@@ -25,6 +25,6 @@ jobs:
       - Name : Backlog Notify 
         Uses : Bicstone / Backlog-Notify Atto Master 
         Env :
-           PROJECT_KEY : NOTIFY_GITHUB 
+          PROJECT_KEY : NOTIFY_GITHUB
           API_HOST : hoaiphan.backlog.com 
           API_KEY : $ {{Secrets.TEST_NOTIFY_GITHUB}}
