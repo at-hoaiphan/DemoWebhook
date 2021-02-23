@@ -5,7 +5,7 @@ jobs :
     runs-on : ubuntu-latest
     steps :
       - Name : Backlog Notify
-        Uses : Bicstone / Backlog-Notify Atto Master
+        uses : Bicstone / Backlog-Notify Atto Master
         Env :
           PROJECT_KEY : NOTIFY_GITHUB
           API_HOST : hoaiphan.backlog.com 
