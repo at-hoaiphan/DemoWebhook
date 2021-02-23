@@ -9,4 +9,4 @@ jobs :
         env :
           PROJECT_KEY : NOTIFY_GITHUB
           API_HOST : hoaiphan.backlog.com 
-          API_KEY : $ {{Secrets.TEST_NOTIFY_GITHUB}}
+          API_KEY : ${{secrets.TEST_NOTIFY_GITHUB}}
