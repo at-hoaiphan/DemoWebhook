@@ -1,5 +1,5 @@
 name : Backlog Notify
-on : pull
+on : pull_request
 jobs :
   backlog :
     runs-on : ubuntu-latest
