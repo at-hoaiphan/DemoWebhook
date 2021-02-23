@@ -4,9 +4,9 @@ jobs :
   backlog :
     runs-on : ubuntu-latest
     steps :
-        Name : Backlog Notify
+      - name : Backlog Notify
         uses : bicstone / backlog-notify@1.0.0
-        Env :
+        env :
           PROJECT_KEY : NOTIFY_GITHUB
           API_HOST : hoaiphan.backlog.com 
           API_KEY : $ {{Secrets.TEST_NOTIFY_GITHUB}}
